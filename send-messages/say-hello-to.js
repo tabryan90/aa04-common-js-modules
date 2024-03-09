@@ -1,4 +1,4 @@
-
+const sayMessage = require('../messages/say-message')
 
 function sayHelloTo(name) {
   sayMessage(`Hello ${name}!`)
@@ -7,5 +7,5 @@ function sayHelloTo(name) {
 sayHelloTo("Woody");
 
 //!!START SILENT
-module.exports = { sayHelloTo };
+module.exports = sayHelloTo;
 //!!END
