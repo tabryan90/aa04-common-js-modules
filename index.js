@@ -1,8 +1,9 @@
 const sayHelloTo = require('./send-messages/say-hello-to')
 const giveMessageToMrsPotato = require('./send-messages/give-message-to-mrs-potato')
-const msg1 = require('./messages/index')
-const msg2 = require('./messages/index')
-const msg3 = require('./messages/index')
+const messages = require('./messages/index')
+const msg1 = messages.message1
+const msg2 = messages.message2
+const msg3 = messages.message3
 
 
 /****************************************************************************/
